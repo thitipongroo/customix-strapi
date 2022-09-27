@@ -11,5 +11,25 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "ExcludedTags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
+    },
+    "Title": {
+      "type": "string",
+      "required": true,
+      "default": "Blog"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "PageInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.page-info"
+    }
+  }
 }
