@@ -22,7 +22,7 @@ You now have access to the [admin panel](http://localhost:1337/admin/auth/regist
 
 <p align="center">
   <a href="https://strapi.io">
-    <img src="https://raw.githubusercontent.com/strapi/strapi/0bcebf77b37182fe021cb59cc19be8f5db4a18ac/public/assets/administration_panel.png" alt="Administration panel" />
+    <img src="https://docs.strapi.io/assets/img/qsg-handson-part1-01-admin_panel_2.a1602906.png" alt="Administration panel" />
   </a>
 </p>
 
