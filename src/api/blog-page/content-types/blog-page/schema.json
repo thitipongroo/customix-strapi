@@ -12,6 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "ExcludedTags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
+    },
     "Title": {
       "type": "string",
       "required": true,
