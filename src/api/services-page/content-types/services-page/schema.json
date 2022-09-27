@@ -4,29 +4,33 @@
   "info": {
     "singularName": "services-page",
     "pluralName": "services-pages",
-    "displayName": "ServicesPage"
+    "displayName": "ServicesPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string"
-    },
-    "Content": {
-      "type": "richtext"
-    },
     "ExcludedServices": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::service.service"
     },
-    "SeoInformation": {
-      "displayName": "SeoInformation",
+    "Title": {
+      "type": "text",
+      "default": "Our Services",
+      "required": true
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title",
+      "required": true
+    },
+    "PageInfo": {
       "type": "component",
       "repeatable": false,
-      "component": "seo.seo-information"
+      "component": "layout.page-info"
     }
   }
 }
