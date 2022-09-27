@@ -21,6 +21,11 @@
       "type": "uid",
       "targetField": "Name",
       "required": true
+    },
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.button"
     }
   }
 }
