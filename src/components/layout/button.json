@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_layout_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
