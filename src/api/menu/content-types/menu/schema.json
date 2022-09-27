@@ -4,21 +4,23 @@
   "info": {
     "singularName": "menu",
     "pluralName": "menus",
-    "displayName": "Menu"
+    "displayName": "Menu",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "Name": {
       "type": "string",
       "required": true,
-      "unique": true
+      "default": "Menu"
     },
     "CodeName": {
       "type": "uid",
-      "targetField": "Name"
+      "targetField": "Name",
+      "required": true
     }
   }
 }
