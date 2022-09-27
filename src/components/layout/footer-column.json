@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_footer_columns",
+  "info": {
+    "displayName": "FooterColumn",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "HeadingText": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    }
+  }
+}
