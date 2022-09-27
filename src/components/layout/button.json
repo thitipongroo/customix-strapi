@@ -1,12 +1,17 @@
 {
   "collectionName": "components_layout_buttons",
   "info": {
-    "displayName": "Button",
-    "icon": "align-justify"
+    "displayName": "Link",
+    "icon": "circle",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Label": {
+      "type": "string",
+      "required": true
+    },
+    "Link": {
       "type": "string",
       "required": true
     }
