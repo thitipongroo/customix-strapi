@@ -2,15 +2,21 @@
   "collectionName": "components_layout_footer_columns",
   "info": {
     "displayName": "FooterColumn",
-    "icon": "align-center"
+    "icon": "bars"
   },
   "options": {},
   "attributes": {
-    "HeadingText": {
-      "type": "string"
+    "Heading": {
+      "type": "string",
+      "required": false
     },
     "Content": {
       "type": "richtext"
+    },
+    "FooterLinks": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::menu.menu"
     }
   }
 }
