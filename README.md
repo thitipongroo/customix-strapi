@@ -18,8 +18,6 @@ By completing the form, you create your own account. Once done, you become the f
 
 You now have access to the [admin panel](http://localhost:1337/admin/auth/register-admin):
 
-<br>
-
 <p align="center">
   <a href="https://strapi.io">
     <img src="https://docs.strapi.io/assets/img/qsg-handson-part1-01-admin_panel_2.a1602906.png" alt="Administration panel" />
