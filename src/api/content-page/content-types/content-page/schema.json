@@ -4,7 +4,8 @@
   "info": {
     "singularName": "content-page",
     "pluralName": "content-pages",
-    "displayName": "ContentPage"
+    "displayName": "ContentPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,7 +18,13 @@
     },
     "Slug": {
       "type": "uid",
+      "required": true,
       "targetField": "Title"
+    },
+    "PageInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.page-info"
     }
   }
 }
