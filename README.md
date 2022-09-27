@@ -1,5 +1,33 @@
 # 🚀 Getting started with Strapi
 
+#### Step 1: Run the installation script
+
+Run the following command in a terminal:
+
+```
+npx create-strapi-app@latest my-project --quickstart
+# or
+yarn create strapi-app my-project --quickstart
+```
+
+#### Step 2: Register the first administrator user
+
+Once the installation is complete, your browser automatically opens a new tab.
+
+By completing the form, you create your own account. Once done, you become the first administator user of this Strapi application. Welcome aboard, commander!
+
+You now have access to the [admin panel](http://localhost:1337/admin/auth/register-admin):
+
+<br>
+
+<p align="center">
+  <a href="https://strapi.io">
+    <img src="https://raw.githubusercontent.com/strapi/strapi/0bcebf77b37182fe021cb59cc19be8f5db4a18ac/public/assets/administration_panel.png" alt="Administration panel" />
+  </a>
+</p>
+
+<br>
+
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
 ### `develop`
@@ -7,9 +35,9 @@ Strapi comes with a full featured [Command Line Interface](https://docs.strapi.i
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
 
 ```
-npm run develop
+npm run dev
 # or
-yarn develop
+yarn dev
 ```
 
 ### `start`
