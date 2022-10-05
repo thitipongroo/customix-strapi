@@ -4,10 +4,11 @@
   "info": {
     "singularName": "seo-configuration",
     "pluralName": "seo-configurations",
-    "displayName": "SeoConfiguration"
+    "displayName": "SeoConfiguration",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -20,12 +21,12 @@
       "required": true
     },
     "DefaultSeoImage": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banner_ads",
+  "info": {
+    "singularName": "banner-ad",
+    "pluralName": "banner-ads",
+    "displayName": "BANNER+ADS",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hilight": {
+      "type": "string",
+      "required": true,
+      "default": "LIVE"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "dj_desc": {
+      "type": "string",
+      "required": true
+    },
+    "intro": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "onair_desc": {
+      "type": "string",
+      "required": true
+    },
+    "now_display": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "audios"
+      ]
+    },
+    "next_display": {
+      "type": "string",
+      "required": true
+    },
+    "chat_with_me_link": {
+      "type": "string",
+      "required": true
+    },
+    "shif_dj_link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
